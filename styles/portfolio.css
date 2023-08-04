@@ -4,21 +4,23 @@ body {
 
 }
 .text-primay {
-    color: #ae5d23;
+    color: #FD6E0A;
 }
 .btn-primary {
 border-radius: 5px;
 /* text-align: center; */
 background-color: #FD6E0A;
 border: 0;
-font-size: 15px;
+font-size: 20px;
 color: white;
 font-weight: 70px;
-padding: 10px 8px;
+padding: 15px 35px;
 }
 /* nav related styles */
 nav {
     display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 /* nav related styles */
@@ -26,6 +28,7 @@ nav {
 
 nav > ul {
     display: flex;
+    align-items: center;
     /* text-decoration: none; */
 }
 nav li {
