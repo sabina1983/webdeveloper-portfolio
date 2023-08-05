@@ -49,11 +49,24 @@ nav a{
 /* header related style */
 .header{
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-image: no-repeat;
+    background-position: bottom-right;
 }
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
 }
 .profile-picture{
     width: 550px;
+    align-items: center;
+}
+.bannar-greeting{
+margin-bottom: 0px;
+}
+.bannar-title{
+
+}
+.banner-description{
+    
 }
