@@ -30,6 +30,7 @@ nav > ul {
     display: flex;
     align-items: center;
     /* text-decoration: none; */
+    margin: opx 200px  ;
 }
 nav li {
 list-style: none;
@@ -38,11 +39,21 @@ margin-right: 50px;
 nav a{
     text-decoration: none;
     color: #474747;
-
 }
 .nav-title{
     color: #181818;
     font-size: 45px;    
     font-weight: 800;
 
+}
+/* header related style */
+.header{
+    background: #FFF8F3;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.profile-picture{
+    width: 550px;
 }
