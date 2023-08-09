@@ -107,19 +107,27 @@ header {
 
 /* Main section styles */
 
-
+main{
+    width: 1140px;
+    margin: 0px auto
+}
 /* about section styles */
 .about {
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px 0px;
-
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
 
 .section-descrption {
     color: #757575;
     text-align: center;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
 
 }
