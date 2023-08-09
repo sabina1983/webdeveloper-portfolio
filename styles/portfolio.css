@@ -3,19 +3,31 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
+
 .text-primay {
     color: #FD6E0A;
 }
+
 .btn-primary {
-border-radius: 5px;
-/* text-align: center; */
-background-color: #FD6E0A;
-border: 0;
-font-size: 20px;
-color: white;
-font-weight: 70px;
-padding: 15px 35px;
+    border-radius: 5px;
+    /* text-align: center; */
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 70px;
+    padding: 15px 35px;
 }
+
+.section-title {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #181818
+    /* padding: 130px 500px 30px 500px; */
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -26,47 +38,88 @@ nav {
 /* nav related styles */
 
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
     /* text-decoration: none; */
-    margin: opx 200px  ;
+    margin: opx 200px;
 }
+
 nav li {
-list-style: none;
-margin-right: 50px;
+    list-style: none;
+    margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
-    font-size: 45px;    
+    font-size: 45px;
     font-weight: 800;
 
 }
+
 /* header related style */
-.header{
+header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png);
-    background-image: no-repeat;
-    background-position: bottom-right;
+    /* background-image: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+    /* object-fit: contain; */
+
 }
+
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
 }
-.profile-picture{
+
+.profile-picture {
     width: 550px;
     align-items: center;
+    padding-right: 38px;
 }
-.bannar-greeting{
-margin-bottom: 0px;
-}
-.bannar-title{
+
+.bannar-greeting {
+    margin-bottom: 0px;
+    font-size: 45px;
 
 }
-.banner-description{
-    
+
+.bannar-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    margin-bottom: 30px;
+}
+
+/* Main section styles */
+
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+
+}
+
+.section-descrption {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
 }
