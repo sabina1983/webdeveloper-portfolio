@@ -31,7 +31,7 @@ body {
 /* nav related styles */
 nav {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,7 +41,7 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-    /* text-decoration: none; */
+    text-decoration: none;
     margin: opx 200px;
 }
 
@@ -53,13 +53,14 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+
 }
 
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-
+    /* padding-right: 70px; */
 }
 
 /* header related style */
@@ -69,7 +70,8 @@ header {
     /* background-image: no-repeat; */
     background-repeat: no-repeat;
     background-position: bottom right;
-
+    margin: 0px 0px 130px 0px;
+    padding: 10px;
 
     /* object-fit: contain; */
 
@@ -151,4 +153,12 @@ main section{
 }
 .skills-description{
     color: #757575;
+}
+/* Resume section styles */
+.resume-column{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}.resume-title{
+
 }
