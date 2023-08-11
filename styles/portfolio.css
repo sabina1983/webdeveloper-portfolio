@@ -42,7 +42,7 @@ nav>ul {
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin: opx 200px;
+    margin: opx 500px opx 200px;
 }
 
 nav li {
@@ -60,7 +60,7 @@ nav a {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    /* padding-right: 70px; */
+    padding-left: 150px;
 }
 
 /* header related style */
@@ -87,6 +87,7 @@ header {
     width: 550px;
     align-items: center;
     padding-right: 38px;
+    padding-bottom: 0px;
 }
 
 .bannar-greeting {
@@ -159,6 +160,7 @@ main section{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-}.resume-title{
-
+}
+.resume-column-title{
+    
 }
